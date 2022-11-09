@@ -12,7 +12,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/blocks-lockers/Bluetooth",
-            .branch("swift-5.5")
+            .branch("swift-5.6")
         )
     ],
     targets: [
