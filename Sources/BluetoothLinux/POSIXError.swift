@@ -53,11 +53,11 @@ internal extension POSIXErrorCode {
 
 // https://github.com/apple/swift/pull/24149
 // https://github.com/apple/swift-corelibs-foundation/pull/2140
-extension POSIXError: CustomStringConvertible {
-    public var description: String {
-        return _nsError.description
-    }
-}
+//extension POSIXError: CustomStringConvertible {
+//    public var description: String {
+//        return _nsError.description
+//    }
+//}
 
 #if os(macOS)
 extension POSIXErrorCode: CustomStringConvertible {
